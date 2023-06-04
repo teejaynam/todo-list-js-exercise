@@ -34,7 +34,8 @@ function newTask(title, description) {
 
 const task1 = newTask("Clean Cat Litter", "Take all the 💩 out of the litter box");
 const task2 = newTask("Do Laundry", "😨");
-const task = [task1, task2];
+const task3 = newTask("Cook eggs", "🥚🍳");
+const task = [task1, task2, task3];
 
 task1.logState();
 task1.markCompleted();
